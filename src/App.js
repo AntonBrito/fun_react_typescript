@@ -4,12 +4,11 @@ import './App.css';
 
 function App() {
   
-  }
   return (
     <div className="App">
-  
+      <input onChange={onSearchInput} name="search" type="text" />
     </div>
   );
-
+}
 
 export default App;
